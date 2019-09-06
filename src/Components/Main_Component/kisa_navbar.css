@@ -1,0 +1,96 @@
+/*Navigation bar  */
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  
+  nav ul li {
+    padding: 14px; /*width bar  */
+  
+  }
+  
+  nav ul li a {
+    color:  #666666;
+    text-decoration: none !important;
+  }
+  
+  .current {
+    padding: 8px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid #F7363F;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+
+
+ /* shadow vertical bar */
+
+ .horizontal-line-3
+ {
+     border: 0;
+     height: 0;
+     border-top: 2px solid rgba(0, 0, 0, 0.1);
+     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+     margin:-8px;
+     /* margin-top: 1em; */
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     width: 81em;
+ }
+
+
+ .css-style
+ {
+   float: right;
+    margin-right: 1em;
+    margin-top: -3em;
+ }
+
+ .translator-wrapper select{
+   vertical-align: none;
+ }
+
+
+ .goog-tooltip {
+  display: none !important;
+}
+.goog-tooltip:hover {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important; 
+  box-shadow: none !important;
+}
+
+
+
+ .kisa-nav-font
+ {
+   font-size: 16px;
+   color: #666666;
+   font-family: Raleway;
+ }
+ .language-nav-font{
+  font-size: 13px;
+  color: #666666;
+  font-family: Raleway;
+  font-weight: bold;
+ }
+
