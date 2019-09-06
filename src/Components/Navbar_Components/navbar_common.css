@@ -1942,3 +1942,32 @@ body {
 }
 
 
+
+
+
+/* after constand header two columns css */
+
+.rowflexes.flexsflexs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerflex {
+  max-width: 500px;
+  display: flex;
+}
+.imgflex{
+  align-self: baseline;
+}
+.Palign { 
+  margin: 0 0 0 10px; 
+}
+
+ .row [class^="felxcolumn"] {
+  flex: 0 0 calc(50% - 10px);
+  height: 100px;
+  margin: 5px;
+} 
+
+.row [class^="felxcolumn"]:last-child {
+   flex-grow: 1;
+}

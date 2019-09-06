@@ -6,6 +6,7 @@ import Constant_header from "./contant_header.js";
 import Blockchain from "./block_chain.js";
 import { gapi } from "gapi-script";
 import loader from "../../assets/loader.gif";
+import Loaderimg from "../../assets/loaderimg.jpeg";
 
 const axios = require("axios");
 class Top_stories extends Component {
@@ -107,7 +108,39 @@ class Top_stories extends Component {
       data = (
         <div>
           <Constant_header />
-          <div class="row">
+
+
+          <div class="rowflexes flexsflexs">
+     <div class="felxcolumn col-xs-12 col-sm-6">
+       <div class="containerflex">
+    <img className="imgflex" src={Loaderimg} width="200px" height="200px"/>
+    <p class="Palign">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Aenean est lectus, venenatis sit amet nisl sed, molestie 
+    interdum elit. Proin maximus fermentum rhoncus. 
+    Vestibulum blandit ligula ligula. Mauris volutpat cursus 
+    enim eu iaculis. Duis condimentum ante sed dolor lacinia 
+    imperdiet. Phasellus felis orci, dictum sed elit sed, 
+    lobortis congue sem. Etiam at tortor diam. 
+    </p>
+</div>
+       
+  </div>
+  <div class="containerflex">
+    <img className="imgflex" src={Loaderimg} width="200px" height="200px"/>
+            <p class="Palign">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Aenean est lectus, venenatis sit amet nisl sed, molestie 
+    interdum elit. Proin maximus fermentum rhoncus. 
+    Vestibulum blandit ligula ligula. Mauris volutpat cursus 
+    enim eu iaculis. Duis condimentum ante sed dolor lacinia 
+    imperdiet. Phasellus felis orci, dictum sed elit sed, 
+    lobortis congue sem. Etiam at tortor diam. 
+    </p>
+</div>
+     
+</div>
+          {/* <div class="row">
             <div className="col-md-6">
               {" "}
               {this.state.data.length > 0 ? (
@@ -151,7 +184,7 @@ class Top_stories extends Component {
                 ""
               )}{" "}
             </div>{" "}
-          </div>
+          </div> */}
           <div class="horizontal-line-1" />
           <nav>
             <div>

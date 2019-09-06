@@ -771,7 +771,7 @@ export default class Card extends Component {
 
     return (
       <div>
-        {this.props.data !== undefined ? (
+        {/* {this.props.data !== undefined ? (
           <div className="row">
             <div className="col-md-8" style={{ display: "contents" }}>
               <div className="card-layout-1">
@@ -791,9 +791,9 @@ export default class Card extends Component {
                       className="feed_type_font"
                       value={this.props.data.type}
                       onClick={this.handlePageChange}
-                    >
+                    > */}
                       {/* {this.props.data.type}{" "} */}
-                      Startup
+                      {/* Startup
                     </div>
                   );
                 } else if (this.props.data.type == FEEDTYPE_ARTS) {
@@ -802,9 +802,9 @@ export default class Card extends Component {
                       className="feed_type_font"
                       value={this.props.data.type}
                       onClick={this.handlePageChange}
-                    >
+                    > */}
                       {/* {this.props.data.type}{" "} */}
-                      Arts
+                      {/* Arts
                     </div>
                   );
                 } else if (this.props.data.type == FEEDTYPE_BLOCKCHAIN) {
@@ -837,7 +837,7 @@ export default class Card extends Component {
           </div>
         ) : (
           ""
-        )}
+        )} */}
 
         {this.props.datum !== undefined ? (
           <div className="row const-header">
