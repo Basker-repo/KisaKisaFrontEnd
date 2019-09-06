@@ -107,7 +107,7 @@ class Top_stories extends Component {
     } else {
       data = (
         <div>
-          <Constant_header />
+          {/* <Constant_header /> */}
 
 
           <div class="rowflexes flexsflexs">
@@ -140,130 +140,10 @@ class Top_stories extends Component {
 </div>
      
 </div>
-          {/* <div class="row">
-            <div className="col-md-6">
-              {" "}
-              {this.state.data.length > 0 ? (
-                <div className="container-fluid">
-                  <div className="row">
-                    {" "}
-                    {this.state.data.map((val, idx) => {
-                      if (idx <= 0) {
-                        return (
-                          <div key={idx}>
-                            <Card data={val} />{" "}
-                          </div>
-                        );
-                      }
-                    })}{" "}
-                  </div>{" "}
-                </div>
-              ) : (
-                ""
-              )}{" "}
-            </div>
-            <div class="vertical1" />
-            <div className="col-md-6">
-              {" "}
-              {this.state.data1.length > 0 ? (
-                <div className="container-fluid">
-                  <div className="row">
-                    {" "}
-                    {this.state.data1.map((val, idx) => {
-                      if (idx <= 0) {
-                        return (
-                          <div key={idx}>
-                            <Card data1={val} />{" "}
-                          </div>
-                        );
-                      }
-                    })}{" "}
-                  </div>{" "}
-                </div>
-              ) : (
-                ""
-              )}{" "}
-            </div>{" "}
-          </div> */}
-          <div class="horizontal-line-1" />
-          <nav>
-            <div>
-              <section class="card-slider">
-                {" "}
-                {this.state.data2.length > 0 &&
-                  this.state.data2.map((val, idx) => {
-                    return idx <= this.state.lengthOfSilder ? (
-                      <div class="col-xs-3 col-sm-3 col-md-3">
-                        <Card data2={val} />{" "}
-                      </div>
-                    ) : (
-                      ""
-                    );
-                  })}{" "}
-              </section>{" "}
-            </div>{" "}
-          </nav>
-          <div class="horizontal-line-2" />
-          {this.state.stories_2.length > 0 ? (
-            <div
-              style={{
-                marginTop: "50"
-              }}
-            >
-              <div className="container-fluid">
-                <div className="row footercard-box">
-                  {" "}
-                  {this.state.stories_2.map((val, idx) => {
-                    if (idx <= 5) {
-                      return (
-                        <div className="col-4" key={idx}>
-                          <FooterCard data={val} />{" "}
-                        </div>
-                      );
-                    }
-                  })}{" "}
-                </div>{" "}
-              </div>{" "}
-            </div>
-          ) : (
-            ""
-          )}{" "}
-          <div class="horizontal-line-1-1" />
-          <div className="emailcontainer">
-            <div className="row valign-wrapper">
-              <div className="col s6 offset-s3 valign">
-                <div className="card blue-grey darken-1 cardcontainer1">
-                  <div className="card-content white-text cardcontainer">
-                    <form onSubmit={this.handleSubmit}>
-                      <h1> Get Full Access </h1>{" "}
-                      <p>
-                        To enjoy the every features of KIsa Kisa sign up today
-                        and become our premium user.{" "}
-                      </p>{" "}
-                      <input
-                        className="textfield"
-                        type="email"
-                        placeholder="Email"
-                        id="mainInput"
-                        value={this.state.value}
-                        onChange={this.handleChange}
-                      />{" "}
-                      <button
-                        type="submit"
-                        value="Signup"
-                        className="signupbtn"
-                        style={{
-                          verticalAlign: "middle"
-                        }}
-                      >
-                        <span> Signup </span>{" "}
-                      </button>{" "}
-                    </form>{" "}
-                  </div>{" "}
-                </div>{" "}
-              </div>{" "}
-            </div>{" "}
-          </div>{" "}
+        
+       
+
+         
         </div>
       );
     }
